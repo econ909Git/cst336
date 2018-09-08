@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <nav>
-        <a href="Labs"> Labs</a>
-    
+        <a href="Labs/lab1"> Lab1 </a>
     </nav>
 </html>
