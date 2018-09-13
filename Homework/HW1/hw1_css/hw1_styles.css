@@ -1,0 +1,156 @@
+body {
+     background-color:DarkBlue; color:white;
+}
+#header {
+    text-align: center;
+    padding-bottom:5px;
+}
+
+#pageTitle {
+    background-color: black;
+    color:white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 50px;
+    /*height: 100px;*/
+    font-size:1.8em;
+    text-align: center;
+}
+
+#home{
+    text-align: center;
+    font-size:1.9em;
+}
+#home a{
+    color:white;
+}
+
+#description {
+     color:white;
+     font-size:1.45em;
+     padding-left:40px;
+     padding-right:40px;
+     line-height:1.6;
+}
+
+#tesla{
+   
+    display:flex;
+    justify-content:center;
+}
+
+#zero{
+   
+    display:flex;
+    justify-content:center;
+}
+
+#teslaPic{
+    padding-right:30px;
+}
+
+#zeroPic{
+    padding-right:30px;
+}
+
+.text{
+    font-size:1.3em;
+}
+
+#topics {
+    padding-left:80px;
+    font-size:1.7em;
+}
+
+#topicLinks{
+    display: flex;
+    justify-content:center;
+}
+
+.pic {
+    padding-left: 60px;
+    padding-right: 25px;
+}
+
+#picLinks{
+    display: flex;
+    justify-content:center;
+}
+
+.link {
+    padding-left: 110px;
+    padding-right: 115px;
+    
+    
+}
+
+.link a {
+    color:white;
+    font-size:1.3em;
+    
+}
+
+#referance {
+    padding-left:70px;
+}
+
+.refs {
+   padding-bottom:5px;
+   padding-top:5px;
+   font-size:1.28em;
+}
+
+.refs a {
+    color:white;
+}
+
+#footer{
+    
+    text-align:center;
+    
+}
+
+#image{
+     text-align:center;
+}
+
+hr {
+    width: 90%;
+    height: 5px;
+    
+}
+
+#homeButton {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: RoyalBlue;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid DarkBlue;
+  border-right: 715px solid DarkBlue;
+  border-bottom: 1px solid DarkBlue;
+  border-left: 715px solid DarkBlue;
+  text-align: center;
+  font-size:1.6em;
+}
+#homeButton a{
+    color: white;
+}
+table{
+    padding-top:50px;
+    padding-left: 50px;
+}
+
+#table-header {
+    background-color: DarkSlateGrey;
+    
+}  
+.table-row{
+    background-color: RoyalBlue;
+     
+}
+#cst338{
+    padding-left:69px;
+    display: flex;
+    justify-content:center;
+}
