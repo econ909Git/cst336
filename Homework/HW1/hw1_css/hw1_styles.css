@@ -43,6 +43,7 @@ body {
    
     display:flex;
     justify-content:center;
+    /*padding-left:100px;*/
 }
 
 #teslaPic{
@@ -55,8 +56,12 @@ body {
 
 .text{
     font-size:1.3em;
+    
 }
-
+/*.zeroText{*/
+/*    font-size:1.3em;*/
+/*    padding-right:50px;*/
+/*}*/
 #topics {
     padding-left:80px;
     font-size:1.7em;
@@ -154,3 +159,17 @@ table{
     display: flex;
     justify-content:center;
 }
+
+/*#tesla{*/
+   
+/*    display:flex;*/
+/*    justify-content:center;*/
+/*}*/
+
+/*#teslaPic{*/
+/*    padding-right:30px;*/
+/*}*/
+
+/*#zeroPic{*/
+/*    padding-right:30px;*/
+/*}*/

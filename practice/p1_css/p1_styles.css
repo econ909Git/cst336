@@ -1,0 +1,39 @@
+#pageTitle {
+    background-color: #002A4E;
+    color:white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 50px;
+    /*height: 100px;*/
+    font-size:1.8em;
+}
+#description {
+     color:#2B7E9F;
+     font-size:1.45em;
+     padding-left:40px;
+     padding-right:40px;
+     line-height:1.6;
+}
+#degree{
+    color:black;
+}
+#degreePrograms{
+    display: flex;
+    justify-content:center;
+}
+
+    
+.pic {
+    padding-left: 60px;
+    padding-right: 25px;
+    
+}
+#footer {
+    padding-left:40px;
+}
+
+.minors {
+   padding-bottom:5px;
+   padding-top:5px;
+   font-size:1.28em;
+}
