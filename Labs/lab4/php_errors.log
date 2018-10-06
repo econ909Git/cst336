@@ -1,0 +1,60 @@
+[26-Sep-2018 22:29:32 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 9
+[26-Sep-2018 22:29:32 UTC] PHP Stack trace:
+[26-Sep-2018 22:29:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[26-Sep-2018 22:29:32 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:9
+[26-Sep-2018 22:29:33 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 9
+[26-Sep-2018 22:29:33 UTC] PHP Stack trace:
+[26-Sep-2018 22:29:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[26-Sep-2018 22:29:33 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:9
+[29-Sep-2018 08:22:59 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php:4) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php on line 4
+[29-Sep-2018 08:22:59 UTC] PHP Stack trace:
+[29-Sep-2018 08:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[29-Sep-2018 08:24:47 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php:4) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php on line 4
+[29-Sep-2018 08:24:47 UTC] PHP Stack trace:
+[29-Sep-2018 08:24:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[29-Sep-2018 08:30:23 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 7
+[29-Sep-2018 08:31:10 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 7
+[29-Sep-2018 08:39:29 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 7
+[29-Sep-2018 08:47:24 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php:4) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php on line 4
+[29-Sep-2018 08:47:24 UTC] PHP Stack trace:
+[29-Sep-2018 08:47:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[29-Sep-2018 09:45:01 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 18
+[29-Sep-2018 09:45:01 UTC] PHP Stack trace:
+[29-Sep-2018 09:45:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[29-Sep-2018 09:45:01 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:18
+[29-Sep-2018 09:45:01 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 18
+[29-Sep-2018 09:45:01 UTC] PHP Stack trace:
+[29-Sep-2018 09:45:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[29-Sep-2018 09:45:01 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:18
+[29-Sep-2018 09:45:35 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 18
+[29-Sep-2018 09:45:35 UTC] PHP Stack trace:
+[29-Sep-2018 09:45:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[29-Sep-2018 09:45:35 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:18
+[29-Sep-2018 09:45:36 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 18
+[29-Sep-2018 09:45:36 UTC] PHP Stack trace:
+[29-Sep-2018 09:45:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[29-Sep-2018 09:45:36 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:18
+[29-Sep-2018 09:45:48 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 18
+[29-Sep-2018 09:45:48 UTC] PHP Stack trace:
+[29-Sep-2018 09:45:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[29-Sep-2018 09:56:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 21
+[01-Oct-2018 21:15:56 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php:4) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php on line 4
+[01-Oct-2018 21:15:56 UTC] PHP Stack trace:
+[01-Oct-2018 21:15:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[01-Oct-2018 21:16:49 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php:4) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php on line 4
+[01-Oct-2018 21:16:49 UTC] PHP Stack trace:
+[01-Oct-2018 21:16:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[01-Oct-2018 21:17:18 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php:4) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php on line 4
+[01-Oct-2018 21:17:18 UTC] PHP Stack trace:
+[01-Oct-2018 21:17:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[01-Oct-2018 21:17:28 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php:4) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php on line 4
+[01-Oct-2018 21:17:28 UTC] PHP Stack trace:
+[01-Oct-2018 21:17:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[01-Oct-2018 21:18:54 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php:4) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php on line 4
+[01-Oct-2018 21:18:54 UTC] PHP Stack trace:
+[01-Oct-2018 21:18:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[01-Oct-2018 21:20:35 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php:4) in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/api/pixabayAPI.php on line 4
+[01-Oct-2018 21:20:35 UTC] PHP Stack trace:
+[01-Oct-2018 21:20:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php:0
+[01-Oct-2018 22:01:12 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 164
+[02-Oct-2018 16:47:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/Labs/lab4/Slider/index.php on line 135
