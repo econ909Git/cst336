@@ -14,7 +14,7 @@
         
         
         
-         echo "<div id='players' style='width:60px;'>";
+         echo "<div id='players' style='width:65px;'>";
            
         for($i=0; $i<4; $i++){
             
@@ -39,8 +39,8 @@
             }
            
             // echo"Player Names: " . $playerNames[$i];
-            echo "<h2> ".ucfirst($symbol).":  </h2>";
-            echo "<img src='img/player_img/$symbol.png' alt='player' title='".ucfirst($symbol)."' style='width:60px; float:left; padding-bottom:10px; padding-left:100px; padding-right:20px;'  />";
+            echo "<div style='padding-left: 60px;' ><h2>".ucfirst($symbol).":  </h2></div>";
+            echo "<img src='img/player_img/$symbol.png' alt='player' title='".ucfirst($symbol)."' style='width:65px; float:left; padding-left:100px; padding-right:20px;'  />";
             echo "</div>";
             $hand = getHand();
             $total = array_pop($hand);
