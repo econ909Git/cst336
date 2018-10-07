@@ -14,7 +14,7 @@
       <title>FF1 SilverJack</title>
     </head>
     <body>
-      <header><h1>SilverJack</h1></header>
+      <header><h1>FF1 SilverJack</h1></header>
         <?php
           //global $playerNames;
           $moreThanOneWinner=false;
