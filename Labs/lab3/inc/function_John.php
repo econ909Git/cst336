@@ -50,7 +50,7 @@
         }
        
         
-        echo "<div class='winner-container' style='color:darkred;'><h2>";
+        echo "<div class='winner-container' style='color:red;'><h2>";
         displayWinner();
         //winners($playerNames, $totals);
        // echo"</div>";

@@ -1,10 +1,10 @@
 body {
-    background:url(../img/qbkls.png) no-repeat center;
+    background:linear-gradient(#000000BA, #000000CA),url(../img/ff_1.jpg) no-repeat center;
     font-family: retro; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: rgba(0,0,0,0.85);
+    color: white;
     /*font-family: 'Montserrat', sans-serif;*/
     width: 85%;
     min-height: 100vh;
@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    color: black;
+    color: white;
     font-size: 2.8em;
     text-align: center;
 }
@@ -81,4 +81,5 @@ h1 {
 
 #image{
      text-align:center;
+     padding-top:10px;
 }
