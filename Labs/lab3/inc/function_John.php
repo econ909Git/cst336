@@ -50,13 +50,14 @@
         }
        
         
-        echo "<div class='winner-container style:'color:black'><h2>";
+        echo "<div class='winner-container' style='color:darkred;'><h2>";
         displayWinner();
         //winners($playerNames, $totals);
        // echo"</div>";
         echo "</h2></div>";
+         echo "<div id= timeData' style='text-align: center; font-size:1.15em;'>";
         displayAverageTime();
-        
+         echo "</div>";
      }
 
 ?>

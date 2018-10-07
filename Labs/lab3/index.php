@@ -11,7 +11,7 @@
     <head>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
       <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
-      <title>SilverJack</title>
+      <title>FF1 SilverJack</title>
     </head>
     <body>
       <header><h1>SilverJack</h1></header>
@@ -25,5 +25,21 @@
           
           play();
         ?>
+        
+        <div id="footer">
+            <footer>
+                <hr>
+                Course Name. 2018&copy; Economides <br />
+                <strong>Disclaimer:</strong>The information in this webpage is fictitous. <br />
+                It is used for academic purposes only.
+                
+                
+                
+            </footer>
+        </div>
+        
+        <div id ="image">
+            <img src="../../Img/csumb01.png" alt="CSUMB Logo" title="Picture of the CSUMB logo"/>
+        </div>
     </body>
 </html>
