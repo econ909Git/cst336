@@ -29,9 +29,8 @@
         <div id="footer">
             <footer>
                 <hr>
-                Course Name. 2018&copy; Economides <br />
-                <strong>Disclaimer:</strong>The information in this webpage is fictitous. <br />
-                It is used for academic purposes only.
+                CST 336 Internet Programming. 2018&copy; John Economides <br />
+                
                 
                 
                 
