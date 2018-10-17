@@ -313,7 +313,7 @@
       echo"</div>";
       
       $score = $correct/$total;
-      echo "Correct: " .$correct;
+      //echo "Correct: " .$correct;
       $percentScore = $score * 100;
       
       
@@ -321,7 +321,7 @@
          global $correct, $total, $percentScore;
          
          echo"<br><br><br>";
-         echo "DEBUG Correct = " .$correct;
+         //echo "DEBUG Correct = " .$correct;
          echo"<div style='text-align: center;'>";
          echo"<h3> You got " . $correct . " out of " . $total . " questions correct<h3>";
          echo"<h2> Your percentage score is: " . number_format((float)$percentScore, 2, '.', '') . "%"; 
