@@ -313,12 +313,13 @@
       echo"</div>";
       
       $score = $correct/$total;
-      //echo "Score: " .$score;
+      echo "Correct: " .$correct;
       $percentScore = $score * 100;
       
       
       function displayScore(){
-      
+         global $correct, $total, $percentScore;
+         
          echo"<br><br><br>";
          echo "DEBUG Correct = " .$correct;
          echo"<div style='text-align: center;'>";
