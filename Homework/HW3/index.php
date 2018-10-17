@@ -4,10 +4,10 @@
    
     
     
-    if(isset($_GET['quiz']))// and isset($_GET['total']))
+    if(isset($_GET['category']))// and isset($_GET['total']))
     {
         
-        $topic = $_GET['quiz'];
+        $topic = $_GET['category'];
         $_SESSION["questions"] = $_GET['total'];
         $_SESSION["cheat"] = $_GET['noCheating'];
         $cheat = $_GET['noCheating'];
@@ -62,12 +62,20 @@
                     // }
                 
                 ?> 
-                <input type="radio" id="php" name="quiz" value="php_quiz.php">
-                    <label for="php">php Questions</label>
+                
+                <select name="category">
+                <option value=""> Select One </option>
+                <option value="php_quiz.php">PHP</option>
+                <option value="html_quiz.php">HTML</option>
+                
+                </select>
+                
+                <!--<input type="radio" id="php" name="quiz" value="php_quiz.php">-->
+                <!--    <label for="php">php Questions</label>-->
            
            
-                <input type="radio" id="html" name="quiz" value="html_quiz.php">
-                    <label for="html">html Questions</label>
+                <!--<input type="radio" id="html" name="quiz" value="html_quiz.php">-->
+                <!--    <label for="html">html Questions</label>-->
                 <?php
                     // if(!isset($_GET['quiz'])){
                     //     echo'<h3 style="color: red";>You must Select the topic from php or html!<h3>';

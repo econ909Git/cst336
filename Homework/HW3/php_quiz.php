@@ -59,48 +59,46 @@
       echo"<h1 style= 'color:red;'> You Must Choose Between 4 - 10 Questions Only!<h1>";
    }
    
-   // if($numQuestions !=0){  
-      // if($numQuestions > 0){
-      //    echo"<br>";
-      //    echo"<div class='questionBox' style='font-size:1.2em;' >";
-      //    echo"<br> <br>";
-      //    echo"<p>1. Which choice is best to display an array?<br>";
-      //    echo" <form  method='GET'>";
-      //    echo"<input type='radio' name='question01' value='wrong'> echo <br>";
-      //    echo"<input type='radio' name='question01' value='wrong'> magic_display_function v.21.3.7 <br>";
-      //    echo"<input type='radio' name='question01' value='correct'> print_r()<br>";
-      //    echo"<input type='radio' name='question01' value='wrong'> System.out.print()<br>";
-         
-      //    echo"</p>";
-      //    echo"<br>";
-      //    echo"<hr>";
-      //    echo"</div>";
-         
-      //    $numQuestions--;
-         
-      //    if($phpQuestion01 == "correct"){
-      //       $correct += 1;
-      //    }
-         
-      // }
-      if($numQuestions !=0){ 
+   if($numQuestions !=0){  
+      if($numQuestions > 0){
+         echo"<br>";
          echo"<div class='questionBox' style='font-size:1.2em;' >";
          echo"<br> <br>";
-         echo"<p>1. Type in the opening tag (then 1 space) followed by closing tag for a block of php.<br>";
+         echo"<p>1. Which choice is best to display an array?<br>";
          echo" <form  method='GET'>";
-            echo'<br>';
-            echo'<input type="text" name="phpQuestion01" placeholder="Type Answer Here" size="15"/></h3>';
-            
-            echo"</p>";
+         echo"<input type='radio' name='phpQuestion01' value='wrong'> echo <br>";
+         echo"<input type='radio' name='phpQuestion01' value='wrong'> magic_display_function v.21.3.7 <br>";
+         echo"<input type='radio' name='phpQuestion01' value='correct'> print_r()<br>";
+         echo"<input type='radio' name='phpQuestion01' value='wrong'> System.out.print()<br>";
+         
+         echo"</p>";
          echo"<br>";
          echo"<hr>";
          echo"</div>";
          
          $numQuestions--;
          
-         if($phpQuestion01 == "<?php ?>"){
+         if($phpQuestion01 == "correct"){
             $correct += 1;
          }
+         
+      // }
+      // if($numQuestions !=0){ 
+      //    echo"<div class='questionBox' style='font-size:1.2em;' >";
+      //    echo"<br> <br>";
+      //    echo"<p>1. Type in the opening tag (then 1 space) followed by closing tag for a block of php.<br>";
+      //    echo" <form  method='GET'>";
+      //       echo'<br>';
+      //       echo'<input type="text" name="phpQuestion01" placeholder="Type Answer Here" size="15"/></h3>';
+            
+      //       echo"</p>";
+      //    echo"<br>";
+      //    echo"<hr>";
+      //    echo"</div>";
+         
+      //    $numQuestions--;
+         
+      
       }
       
       if($numQuestions > 0){
@@ -307,7 +305,7 @@
             $correct += 1;
          }
          
-     // }
+     }
    }
       echo"<div style='text-align:center;'>";
       echo"<br><br>";

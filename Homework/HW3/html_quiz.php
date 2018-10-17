@@ -329,10 +329,10 @@
          
          echo"<h3><a href='index.php' style='color:white';> Try Again <a><h3>";
          
-         // echo'<form method="GET" action="index.php">';
-         // echo"<br><br>";
-         // echo'<input type="submit" value="Try Again?" name="submit"/>';
-         // echo'</form>'; 
+        //   echo'<form method="GET" action="index.php">';
+        //   echo"<br><br>";
+        //   echo'<input type="submit" value="Try Again?" name="submit"/>';
+        //   echo'</form>'; 
           echo"</div>";
       }
       
