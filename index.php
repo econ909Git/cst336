@@ -8,6 +8,6 @@
         <a href="Homework/HW1"> Homework 1  </a>
         <a href="Homework/HW2"> Homework 2  </a><br>
         
-        <a href="Homework/HW2"> Homework 3  </a>
+        <a href="Homework/HW3"> Homework 3  </a>
     </nav>
 </html>
