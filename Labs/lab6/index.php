@@ -1,7 +1,8 @@
 <?php
 
 include '../../inc/dbConnection.php';
-$dbConn = startConnection("heroku_e9ef217e62cdb47");
+$dbConn = startConnection("ottermart");
+//$dbConn = startConnection("heroku_e9ef217e62cdb47");
 
 function displayCategories() { 
     global $dbConn;
@@ -90,14 +91,14 @@ function filterProducts() {
     <head>
         <title> Lab 6: Ottermart Product Search</title>
     </head>
-    <body>
+    <body style = "text-align:center;">
         
         <h1> Ottermart </h1>
         <h2> Product Search </h2>
         
         <form>
             
-            Product: <input type="text" name="productName" placeholder="Product keyword" /> <br />
+            Product: <input type="text" name="productName" placeholder="Product keyword" /> <br><br>
             
             Category: 
             <select name="category">
@@ -108,14 +109,14 @@ function filterProducts() {
                     //}
                ?>
             </select>
-            
-            Price: From: <input type="text" name="priceFrom"  /> 
+            <br><br>
+            Price: <br>From: <input type="text" name="priceFrom"  /> 
              To: <input type="text" name="priceTo"  />
-            <br>
-            Order By:
+            <br><br>
+            Order By:<br>
             Price <input type="radio" name="orderBy" value="productPrice">
             Name <input type="radio" name="orderBy" value="productName">
-            <br>
+            <br><br>
             <input type="submit" name="submit" value="Search!"/>
         </form>
         <br>
