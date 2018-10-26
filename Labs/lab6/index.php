@@ -1,7 +1,7 @@
 <?php
 
 include '../../inc/dbConnection.php';
-$dbConn = startConnection("ottermart");
+$dbConn = startConnection("heroku_e9ef217e62cdb47");
 
 function displayCategories() { 
     global $dbConn;
@@ -10,10 +10,7 @@ function displayCategories() {
     $stmt = $dbConn->prepare($sql);
     $stmt->execute();
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    //print_r($records);
-    //echo "<hr>";
-    //echo $records[2] . "<br>";
-    //echo $records[1]['catDescription'] . "<br>";
+   
     
     foreach ($records as $record) {
         echo "<option value='".$record['catId']."'>" . $record['catName'] . "</option>";
