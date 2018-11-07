@@ -10,5 +10,6 @@
         <a href="Homework/HW1"> Homework 1  </a><br>
         <a href="Homework/HW2"> Homework 2  </a><br>
         <a href="Homework/HW3"> Homework 3  </a><br>
+        <a href="sports-project2"> Project 2 </a><br>
     </nav>
 </html>
