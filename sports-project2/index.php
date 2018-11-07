@@ -278,6 +278,8 @@
                     <option value="">- None -</option>
                     <?= displayCategories() ?>
                 </select> <br><br>
+                Price: <br>From <input type="number" name="priceFrom" value="<?=$_GET['priceFrom']?>"><br>
+                To <input type="number" name="priceTo" value="<?=$_GET['priceTo']?>"><br><br>
                 <h4>Order Results By:</h4>
                 <input type="radio" id="teamOrd" name="orderBy" value="playerTeam" <?=checkRadio("playerTeam")?>style="border: 0px; width:20px; height: 20px;">
                 <label for="teamOrd">Player Team</label>
