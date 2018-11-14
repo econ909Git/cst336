@@ -16,12 +16,13 @@ function replay(){
 }
 
 function init(){
-	imgPlayer = document.getElementById("imgPlayer");
-	imgComputer = document.getElementById("imgComputer");
-	btnRock = document.getElementById("btnRock");
-	btnPaper = document.getElementById("btnPaper");
-	btnScissors = document.getElementById("btnScissors");
-	btnGo = document.getElementById("btnGo");
+	//imgPlayer = document.getElementById("imgPlayer");
+	imgPlayer = $("#imgPlayer")[0];
+	imgComputer = $("#imgComputer")[0];
+	btnRock = $("#btnRock")[0];
+	btnPaper = $("#btnPaper")[0];
+	btnScissors = $("#btnScissors")[0];
+	btnGo = $("#btnGo")[0];
 	deselectAll();
 }
 
