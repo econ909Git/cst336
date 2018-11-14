@@ -57,16 +57,16 @@ function go(){
 		imgComputer.src = 'images/rock.png';
 		document.getElementById('lblRock').style.backgroundColor = 'yellow';
 		if(playerChoice=='rock') {
-			txtEndTitle.innerHTML = '';
-			txtEndMessage.innerHTML = "TIE";
+			$("#txtEndTitle").empty().append("") ;
+			$("#txtEndMessage").empty().append("TIE") ;
 		}
 		if(playerChoice=='paper') {
-			txtEndTitle.innerHTML = 'Paper Covers Rock!';
-			txtEndMessage.innerHTML = "YOU WIN!";
+			$("#txtEndTitle").empty().append("Paper Covers Rock") ;
+			$("#txtEndMessage").empty().append("YOU WIN") ;
 		}
 		if(playerChoice=='scissors') {
-			txtEndTitle.innerHTML = 'Rock smashes Scissors!';
-			txtEndMessage.innerHTML = "YOU LOSE!";
+			$("#txtEndTitle").empty().append("Rock Smashes Scissors") ;
+			$("#txtEndMessage").empty().append("YOU LOSE") ;
 		}
 		document.getElementById('endScreen').style.display = 'block';
 	}
@@ -75,16 +75,16 @@ function go(){
 		imgComputer.src = 'images/paper.png';
 		document.getElementById('lblPaper').style.backgroundColor = 'yellow';
 		if(playerChoice=='rock') {
-			txtEndTitle.innerHTML = 'Paper Covers Rock!';
-			txtEndMessage.innerHTML = "YOU LOSE!";
+			$("#txtEndTitle").empty().append("Paper Covers Rock") ;
+			$("#txtEndMessage").empty().append("YOU LOSE") ;
 		}
 		if(playerChoice=='paper') {
-			txtEndTitle.innerHTML = '';
-			txtEndMessage.innerHTML = "TIE";	
+			$("#txtEndTitle").empty().append("") ;
+			$("#txtEndMessage").empty().append("TIE") ;	
 		}
 		if(playerChoice=='scissors') {
-			txtEndTitle.innerHTML = 'Scissors cuts Paper';
-			txtEndMessage.innerHTML = "YOU WIN";
+			$("#txtEndTitle").empty().append("Scissosrs Cut Paper") ;
+			$("#txtEndMessage").empty().append("YOU WIN") ;
 		}
 		document.getElementById('endScreen').style.display = 'block';
 	}
@@ -93,16 +93,16 @@ function go(){
 		imgComputer.src = 'images/scissors.png';
 		document.getElementById('lblScissors').style.backgroundColor = 'yellow';
 		if(playerChoice=='rock') {
-			txtEndTitle.innerHTML = 'Rock smashes Scissors!';
-			txtEndMessage.innerHTML = "YOU WIN!";
+			$("#txtEndTitle").empty().append("Rock Smashes Scissors") ;
+			$("#txtEndMessage").empty().append("YOU LOSE") ;
 		}
 		if(playerChoice=='paper') {
-			txtEndTitle.innerHTML = 'Scissors cuts Paper';
-			txtEndMessage.innerHTML = "YOU LOSE";
+			$("#txtEndTitle").empty().append("Scissors Cuts Paper") ;
+			$("#txtEndMessage").empty().append("YOU LOSE") ;
 		}
 		if(playerChoice=='scissors') {
-			txtEndTitle.innerHTML = '';
-			txtEndMessage.innerHTML = "TIE";	
+			$("#txtEndTitle").empty().append("") ;
+			$("#txtEndMessage").empty().append("TIE") ;	
 		}
 		document.getElementById('endScreen').style.display = 'block';
 	}
